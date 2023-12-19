@@ -1,0 +1,37 @@
+/*===================Import the main css==========*/
+@import url("../main/main.css");
+
+.home{
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.intro{
+    max-width: 540px;
+    text-align: center;
+}
+span{
+    color: var(--heading-color);
+    font-weight: 300;
+    font-family: var(--salutation-font);
+}
+small{
+    color: #fff;
+    font-family: var(--salutation-font);
+}
+.home_image{
+    margin-bottom: 1.5rem;
+}
+.home_socials{
+    display: flex;
+    column-gap: 1.75rem;
+    margin: 1.5rem;
+    justify-content: center;
+}
+.home_social_link{
+    color: var(--heading-color);
+    font-size: 1.3rem;
+    transition: .3s;
+}

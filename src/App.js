@@ -13,14 +13,14 @@ function App() {
   return (
    <>
      <SideBar />
-     <div className='main'>
+     <main className='main'>
       <Index />
       <AboutMe />
       <Skills />
       <Portfolio />
       <Experience />
       <Contact />
-     </div>
+     </main>
    </>
 
   );

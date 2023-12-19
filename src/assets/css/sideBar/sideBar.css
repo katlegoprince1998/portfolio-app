@@ -1,0 +1,39 @@
+/*===================Import the main css==========*/
+@import url("../main/main.css");
+
+.nav_logo{
+    position: inherit;
+    top: 0;
+    left: 30px;
+    color: var(--logo-color);
+    font-size: 1.99em;
+    margin: 8px;
+    z-index: 10;
+    font-weight: 900;
+    font-family: var(--logo-font);
+}
+
+.aside{
+    position: fixed;
+    left:0;
+    top: 0;
+    border-right: 8px solid rgba(0,0,0,0.05);
+    padding: 2.5rem;
+    width: 110px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    z-index: 10;
+
+}
+.nav_list{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+.nav_link{
+    color: var(--logo-color);
+    font-size: 1.5em;
+    font-weight: 700;
+}
