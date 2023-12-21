@@ -1,2 +1,51 @@
 /*===================Import the main css==========*/
 @import url("../main/main.css");
+.about{
+    height: 100vh;
+}
+.about_conatainer{
+    grid-template-columns: 3fr 9fr;
+    column-gap: 1.875rem;
+}
+.about_data{
+    padding: 1.875rem;
+   border-bottom: 5px solid var(--heading-color);
+   border-radius: 15% 10%;
+   grid-template-columns: repeat(2, 1fr);
+   column-gap: 2.875rem;
+   border-top: 20px solid var(--heading-color);
+   align-items: flex-start;
+   position: relative;
+}
+.about_description{
+    margin-bottom: 1rem;
+    text-align: justify;
+}
+.about_expertise{
+    row-gap: 1.25rem;
+}
+.expertise_titles{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+.expertise_name, .expertise_number{
+    font-size: var(--sub-heading-desktop-size);
+    color: var(--heading-color);
+    font-family: var(--logo-font);
+}
+.expertise_bar, .expertise_percentage{
+    height: 7px;
+    border-radius: 0.25rem;
+}
+.expertise_bar{
+    background-color: #f1f1f1;
+}
+
+.expertise_percentage{
+    display: block;
+}
+.section_title{
+    border-bottom: 1px solid var(--heading-color);
+    
+}

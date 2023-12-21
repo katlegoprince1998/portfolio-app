@@ -1,2 +1,31 @@
 /*===================Import the main css==========*/
 @import url("../main/main.css");
+.skills{
+    height: 100vh;
+}
+.skills_container{
+    grid-template-columns: 3fr 9fr;
+    column-gap: 1.875rem;
+    border-right: 10px solid var(--heading-color);
+    
+}
+.skills_data{
+    padding: 1.875rem;
+    border-right: 5px solid var(--heading-color);
+    border-radius: 20% 20%;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 0.875rem;
+    align-items: flex-start;
+    position: relative;
+}
+.section_one li{
+   font-size: 1em;
+   color: rgb(133, 128, 175);
+   font-family: var(--heading-font);
+   border-bottom: 1px solid rgb(22, 26, 78);
+   border-radius: 8px;
+
+}
+img{
+    height: 250px;
+}

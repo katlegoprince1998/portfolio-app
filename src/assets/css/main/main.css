@@ -19,7 +19,7 @@
     --icons-color: #fff;
     /*================End Of Colors Defination=======================*/
     /*================Size Definations===============================*/
-    --heading-desktop-size: 2em;
+    --heading-desktop-size: 3em;
     --heading-mobile-size: 1.5em;
     --normal-desktop-size: 0.85em;
     --sub-heading-desktop-size: 1.5em;
@@ -57,7 +57,7 @@ h1{
     color: var(--heading-color);
     font-size: var(--heading-desktop-size);
     font-weight: 700;
-    font-family: var(--heading-font);
+    font-family: var(--logo-font);
 }
 p{
     color: var(--norma-text-color);
@@ -81,12 +81,12 @@ a{
 }
 img{
     max-width: 100%;
-    height: auto;
+    height: 60%;
     vertical-align: middle;
 }
 
 /*===============================Reusable CSS Classes===========*/
-.conatiner{
+.container{
     max-width: 1080px;
     padding-left: 15px;
     padding-right: 15px;
