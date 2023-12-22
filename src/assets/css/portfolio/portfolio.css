@@ -1,2 +1,51 @@
 /*===================Import the main css==========*/
 @import url("../main/main.css");
+.portfolio{
+    height: 100vh;
+}
+
+
+.portfolio_container{
+    grid-template-columns: 9fr 9fr 9fr;
+    gap: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.card{
+ 
+    width: 300px;
+    height: 420px;
+    margin: 25px 0;
+    box-shadow: 0px 16px 48px 0px rgba(0, 0, 0, 0.176);
+
+}
+h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 8px 0;
+}
+img{
+    width: 100%;
+}
+.portfolio_links{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    margin-top: 15px;
+   
+}
+.portfolio_links a{
+    color: gainsboro;
+    cursor: pointer;
+    transition: .3 ease;
+}
+.portfolio_links a:hover{
+    color: blue;
+}
+p{
+    margin-left: 5px;
+}
